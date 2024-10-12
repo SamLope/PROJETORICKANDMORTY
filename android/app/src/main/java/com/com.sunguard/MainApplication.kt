@@ -1,4 +1,4 @@
-package com.projetorickandmorty4dsm
+package com.sunguard
 
 import android.app.Application
 import com.facebook.react.PackageList

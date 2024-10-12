@@ -1,6 +1,12 @@
-import React from 'react';
-import Routes from './routes';
+import 'react-native-gesture-handler';
+import { AppRegistry } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import AppNavigator from './routes';
 
-const App = () => <Routes/>
+const App = () => (
+  <NavigationContainer>
+    <AppNavigator />
+  </NavigationContainer>
+);
 
-export default App;
+AppRegistry.registerComponent('SunGuard', () => App);

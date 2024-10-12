@@ -74,9 +74,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.projetorickandmorty4dsm"
+    namespace "com.sunguard"
     defaultConfig {
-        applicationId "com.projetorickandmorty4dsm"
+        applicationId "com.sunguard"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
